@@ -5,32 +5,32 @@ $basesize: 20px;
   @return math.div($px, $basesize) * 1rem;
 }
 
-%display {
-    font-weight: $bold;
-    margin: 0;
-    padding: 0;
-    font-size: rem($display-fontsize);
-    font-family: $main-font;
-}
-
-%maintitle {
-    font-size: rem($h1-fontsize);
-    font-weight: $bold;
+%main {
+    font-size: rem($main-size);
+    font-weight: $light;
     margin: 0;
     padding: 0;
     font-family: $main-font;
 }
 
-%subtitle  {
-    font-size: rem($h2-fontsize);
+%pages {
+    font-size: rem($main-size);
     font-weight: $semibold;
     margin: 0;
     padding: 0;
     font-family: $main-font;
 }
 
-%button {
-    font-size: rem($h3-fontsize);
+%actions {
+    font-size: rem($action-size);
+    font-weight: $semibold;
+    margin: 0;
+    padding: 0;
+    font-family: $main-font;
+}
+
+%names {
+    font-size: rem($detail-size);
     font-weight: $semibold;
     margin: 0;
     padding: 0;
@@ -38,19 +38,27 @@ $basesize: 20px;
 }
 
 %details  {
-    font-size: rem($h4p-fontsize);
+    font-size: rem($detail-size);
+    font-weight: $light;
+    margin: 0;
+    padding: 0;
+    font-family: $main-font;
+}
+
+%tags {
+    font-size: rem($action-size);
     font-weight: $regular;
     margin: 0;
     padding: 0;
     font-family: $main-font;
 }
 
-%oricedetails {
-    font-size: rem($h5-fontsize);
+%quote {
+    font-size: rem(32px);
     font-weight: $regular;
     margin: 0;
     padding: 0;
-    font-family: $main-font;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 %postshape {
